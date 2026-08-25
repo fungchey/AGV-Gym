@@ -1,0 +1,69 @@
+{
+    "stations_types": [
+        {"PD": "Pickup and Delivery"},
+        {"C": "Charging station"},
+        {"P": "Parking station"}
+    ],
+    "num_stations": 78,
+    "fleet_size": [9, 12, 15, 18],
+    "request_scenario": [
+        {"not-busy": 450},
+        {"typical": 900},
+        {"busy": 1800}
+    ],
+    "request_distribution": "Poisson",
+    "time_horizon": 86400,
+    "Charging_rate": {
+        "rate": 0.011,
+        "unit": "%/s"
+    },
+    "Travel_discharging_rate": {
+        "rate": 0.0055,
+        "unit": "%/s"
+    },
+    "Critical_battery_level": {
+        "level": 20.0,
+        "unit": "%"
+    },
+    "Non_critical_battery_level": {
+        "level": 80.0,
+        "unit": "%"
+    },
+    "alpha": {
+        "value": 0.9,
+        "unit": "weight"
+    },
+    "AGV_capacity": {
+        "capacity": 1.0,
+        "unit": "unit"
+    },
+    "Request_weight": {
+        "weight": 1.0,
+        "unit": "unit"
+    },
+    "Time_window_slack": {
+        "slack": 3600.0,
+        "unit": "s"
+    },
+    "Tardiness_cost": {
+        "cost": 1.0,
+        "unit": "unit/s"
+    },
+    "Travel_distance_cost": {
+        "cost": 1.0,
+        "unit": "unit/distance"
+    },
+    "Travel_time_cost": {
+        "cost": 1.0,
+        "unit": "unit/s"
+    },
+    "Maximum_Time_of_Arrival": {
+        "time": 3600.0,
+        "unit": "s"
+    },
+    "Travel_speed": {
+        "speed": 1.0,
+        "unit": "unit/s"
+    },
+    "Distance_calculation": "Manhattan"
+}

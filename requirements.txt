@@ -1,0 +1,11 @@
+gymnasium>=1.1.1
+matplotlib
+numpy
+pandas
+Pillow
+scipy
+torch
+torch-geometric
+tensorboard
+gym
+setuptools<70
